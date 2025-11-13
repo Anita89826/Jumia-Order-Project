@@ -1,0 +1,55 @@
+Key Insights
+
+Overall Performance
+
+The platform generated over ₦2 million in total revenue with an average order value of ₦778.49.
+
+A total of 3,000 customer orders were analyzed, representing a diverse mix of regions and income levels.
+
+-- Product & Category Performance
+
+Food & Beverages emerged as the top-performing category, followed by Electronics and Home Appliances.
+
+These categories collectively drive the bulk of sales, suggesting strong consumer demand for essential and lifestyle products.
+
+-- Regional Sales Analysis
+
+The East and South regions lead in total revenue, indicating higher sales engagement and purchasing power in these areas.
+
+The West region follows closely, presenting opportunities for market expansion and localized promotions.
+
+-- Customer Demographics
+
+Spending is almost evenly split by gender — Male (49.79%) and Female (50.21%) — showing balanced participation across demographics.
+
+This balance indicates that gender-based targeting may not be as effective as category or region-based strategies.
+
+-- Behavioral Patterns
+
+Mid-income customers (₦40K–₦80K) show higher purchasing activity, often buying in greater quantities per order.
+
+As income increases, the number of items purchased per order decreases, but overall order value tends to rise — indicating a premium purchasing pattern among higher-income customers.
+
+-- High-Value Customer Segments
+
+Customers aged 35–54 and those in Doctor and Manager occupations contribute the most to revenue.
+
+These groups represent high-value targets for retention programs and premium product marketing.
+
+-- Country-Level Trends
+
+Sales distribution shows activity across multiple global markets, with strong performance in African and European regions.
+
+-- Strategic Recommendations
+
+Expand marketing in East & South regions to maintain strong momentum.
+
+Develop premium campaigns targeting high-income and professional customers.
+
+Bundle popular items like Food & Beverages and Electronics for mid-income segments to increase basket size.
+
+Maintain balanced marketing across genders, focusing on product preference instead.
+
+ -- Tools Used: Power BI (Data Modeling, DAX, Visualization)
+ -- Dataset: 3,000 Jumia Customer Orders
+ -- Goal: Identify sales trends, customer insights, and data-driven opportunities for strategic planning.
