@@ -1,0 +1,20 @@
+## 🧱 Data Model Overview
+
+The data model for the **Jumia Order Data Project** was designed using a **Star Schema** to support efficient aggregation and easy cross-filtering in Power BI.
+
+![Data Model](visuals/data_model_diagram.png)
+
+### Fact Table
+- **Fact_Sales** — Contains all transaction-level details such as Cost, Price, Quantity, OrderDate, and associated Customer, Product, and Region IDs.
+
+### Dimension Tables
+- **DimCustomer** — Includes customer demographics such as Age, Gender, Occupation, IncomeBracket, and MaritalStatus.
+- **DimProduct** — Contains product attributes such as Category, Subcategory, and ProductID.
+- **DimTerritory** — Stores Region and Location details for sales geography.
+- *(Optional)* **DimDate** — Can be added to support time-based analysis (Year, Month, Quarter).
+
+### Relationships
+- One-to-Many relationships connect dimension keys (`CustomerID`, `ProductID`, `Region`) to their corresponding fact fields.
+- Filters flow from dimension to fact, enabling clear drill-down analysis.
+
+This model forms the foundation for analyzing sales performance, customer segmentation, and regional insights across Jumia’s marketplace.
