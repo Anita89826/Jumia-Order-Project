@@ -1,0 +1,121 @@
+Project Overview
+
+This project analyzes 3,000 Jumia customer orders to uncover insights into sales performance, 
+customer behavior, and regional purchasing patterns. Using Power BI, 
+I cleaned, modeled, and transformed the dataset into an interactive
+ashboard supporting strategic e-commerce decision-making.
+
+--  Key Insights
+
+East & South regions generate the highest sales revenue.
+
+Food & Beverages, Electronics, and Home Appliances lead in overall purchases.
+
+Doctors and Students show the highest average spending.
+
+Mid-income earners (₦40K–₦80K) make the highest number of purchases.
+
+High-income customers make fewer but premium purchases.
+
+Equal gender contribution to total revenue (Male 49.79% | Female 50.21%).
+
+--  Data Model Overview
+
+The data model uses a Star Schema to optimize relationships and performance.
+
+(Insert your data model screenshot here)
+![Data Model](visuals/data_model_diagram.png)
+
+Fact Table: Fact_Sales
+
+Contains transaction-level sales information:
+
+OrderID
+
+CustomerID
+
+ProductID
+
+Region
+
+OrderDate
+
+Price
+
+Quantity
+
+Cost
+
+Income
+
+IncomeBracket
+
+Dimension Tables
+
+DimCustomer – Age, Gender, Occupation, Marital Status, CustomerEmail, IncomeBracket
+
+DimProduct – Category, Subcategory, ProductID
+
+DimTerritory – Region, Location
+
+(Optional) DimDate – Year, Month, Quarter, Day
+
+--  Modeling Insights
+
+The Star Schema enables a flexible and scalable structure,
+allowing the dashboard to support filtering by region,
+customer demographics, income brackets, and product segments.
+
+This model makes it easy to answer business questions such as:
+
+Which regions and categories drive the highest revenue?
+
+How do income and occupation impact spending?
+
+Which customer segments have the greatest growth potential?
+
+-- Dashboard Insights
+
+The dashboard visualizes:
+
+Overall KPIs: Total Revenue, Average Revenue, Number of Orders, Total Income
+
+Product & category performance
+
+Country-level patterns
+
+Gender contribution
+
+Behavioral patterns (Income vs Quantity)
+
+High-value customer segments
+
+These visuals together reveal purchasing behaviors and segment-level profitability.
+
+--  Recommendations
+
+Target the East & South with region-specific promotions.
+
+Create bundle offers for mid-income customers.
+
+Offer premium product marketing for high-income and professional customers.
+
+Maintain gender-neutral marketing due to equal contribution.
+
+Promote top-performing categories through focused campaigns.
+
+🛠 Tools & Skills
+
+Power BI
+
+DAX
+
+Data Modeling (Star Schema)
+
+Data Cleaning & Transformation
+
+Segmentation & Trend Analysis
+
+Data Storytelling
+
+Visualization Design
